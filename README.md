@@ -57,6 +57,13 @@ git clone https://github.com/hrishi0102/Web3Certificate.git
 cd Web3Certificate
 npm install ethers
 npm install ipfs-http-client
+npm install particles-bg
+npm install bulma
+```
+
+Note: In case the project is still not working, use
+```sh
+npm i
 ```
 
 3. Running the APP
