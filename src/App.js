@@ -254,7 +254,7 @@ function App() {
             <p className="panel-heading">Transaction Data</p>
             <div className="panel-block">
               <p className="has-text-success">
-                {TransactionData ? `Transaction hash: ${TransactionData}` : " "}
+                {TransactionData ? `Transaction hash: ${TransactionData}` : "No Transactions done till now"}
               </p>
             </div>
           </article>

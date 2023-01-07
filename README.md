@@ -6,9 +6,9 @@ Track Criminal Records using Non transferrable ERC721 Tokens (Inspired By: SBT- 
     <br />
     <a href="https://reactjs.org/"><strong>Learn more about React »</strong></a>
     <br />
-    <a href="https://github.com/dhananjaypai08/CrimeBoundToken/issues">Report Bug</a>
+    <a href="https://github.com/hrishi0102/Web3Certificate/issues">Report Bug</a>
     <br />
-  <a href="https://github.com/dhananjaypai08/CrimeBoundToken">Project Link</a>
+  <a href="https://github.com/hrishi0102/Web3Certificate">Project Link</a>
  </p>
  
 ## ✍️ Table of Contents
@@ -54,7 +54,7 @@ git clone https://github.com/hrishi0102/Web3Certificate.git
 2. Installing dependencies and requirements
 
 ```sh
-cd CrimeBoundToken
+cd Web3Certificate
 npm install ethers
 npm install ipfs-http-client
 ```
@@ -69,7 +69,7 @@ Built version:
 - npm v8.1.2
 - Node v16.13.2
 
-The Basic goal is to make criminal records for police accessible and easy to fetch for investigations.
+The Basic goal is to make certificate records for police accessible and easy to fetch for investigations.
 Reliable and data once minted cannot be deleted or erased which happens in centralized systems.
 
 ## 🤠 Contributions 
