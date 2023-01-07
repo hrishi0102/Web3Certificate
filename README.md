@@ -1,5 +1,5 @@
 # Certify- Blockchain Based Certificates
-Track Criminal Records using Non transferrable ERC721 Tokens (Inspired By: SBT- Soul Bound Token)
+Track and Send Certificates using Non transferrable ERC721 Tokens (Inspired By: SBT- Soul Bound Token)
 
 <p align="center">
     Make Sure you have React installed for local setup of this project
@@ -25,7 +25,7 @@ Track Criminal Records using Non transferrable ERC721 Tokens (Inspired By: SBT- 
 - Developing ERC721 contract. Making changes to this contract and giving it the Sould Bound properties. Changing the before token transfer and after token transfer phases.
 - Deploying the contract using hardhat on goerli test network.
 - Using Ethers JS for smart contract interaction and safely minting the CBT.
-- Using IPFS for setting up the IPFS http client on the development server and adding metadata to the IPFS and receiving the IPFS hash for the CBT data.
+- Using IPFS for setting up the IPFS http client on the development server and adding metadata to the IPFS and receiving the IPFS hash for the Certify Token data.
 - Using ReactJS for setting up IPFS infura client node, ethers.js and also for providing the development server.
 
 ### 🔧 Built With

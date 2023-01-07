@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import { useEffect, useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { ethers } from "ethers";
 import sbtContract from "./ethereum/sbt";
 import { create as ipfsHttpClient } from "ipfs-http-client";
-
+import Home from "./components/Home";
+import Redirection from "./components/Redirection";
+import { useNavigation } from "react-router-dom/dist";
 const projectId = "2IQSkxfdw8MFjp3naF8d63FXrzz";
 const projectSecretKey = "70df5ccae147c222655a4383541a212e";
 const authorization = "Basic " + btoa(projectId + ":" + projectSecretKey);
@@ -151,6 +154,12 @@ function App() {
 
   return (
     <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<Redirection />} />
+        </Routes>
+    </BrowserRouter>
       <ParticlesBg type="cobweb" bg={true} />
       <nav className="navbar is-black">
         <div className="navbar-brand ml-3">
@@ -177,7 +186,6 @@ function App() {
           </div>
         </div>
       </nav>
-
       <div className="mt-4 center">
         <h1 className="center-text has-text-black has-text-weight-semibold">
           Create, Mint and Send Certificates as SoulBound Tokens (non
@@ -261,7 +269,8 @@ function App() {
         </div>
       </section>
     </div>
-  );
+    );
 }
+
 
 export default App;
