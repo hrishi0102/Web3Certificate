@@ -1,4 +1,4 @@
-# 🎫 CBT - Crime Bound Token
+# Certify- Blockchain Based Certificates
 Track Criminal Records using Non transferrable ERC721 Tokens (Inspired By: SBT- Soul Bound Token)
 
 <p align="center">
@@ -20,16 +20,6 @@ Track Criminal Records using Non transferrable ERC721 Tokens (Inspired By: SBT- 
 - [Usage](#usage)
 - [Contributions](#contributions)
 
-## 💻 About The Project
-  ### 📰 Introduction:
-  - Cops within the chain can easily track criminal records by sending non-transferrable NFT token, which is the CrimeBound Token. No need of storing the data in centralized way where criminals can behave anyhow they want to erase their data. Blockchain nodes are available by all the cop stations along the city. Thus every station knows what CBT has been received by a particular criminal. While punishing and investigating a culprit police can have a look at his CBT profile. That is checking his past criminal records along with its metadata which is integrated using IPFS distributed system for storing the metadata of the NFT.
-  - SBT(Soul Bound Token) for Crime Records
-
-  - Owner of the contract can mint the CBT to an address and can also add metadata which will be stored on IPFS
-
-  - CBT is a simple ERC721 token which is non transferrable and can not be burnt, thus acting as an identity token
-
-  - Deployed on Goerli Testnet
  
  ## 🔨 Project Breakdown 
 - Developing ERC721 contract. Making changes to this contract and giving it the Sould Bound properties. Changing the before token transfer and after token transfer phases.
@@ -58,7 +48,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
 
 ```sh
-git clone https://github.com/dhananjaypai08/CrimeBoundToken/
+git clone https://github.com/hrishi0102/Web3Certificate.git
 ```
 
 2. Installing dependencies and requirements
