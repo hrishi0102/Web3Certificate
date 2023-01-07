@@ -76,7 +76,7 @@ Built version:
 - npm v8.1.2
 - Node v16.13.2
 
-The Basic goal is to make certificate records for police accessible and easy to fetch for investigations.
+The Basic goal is to make certificate records easily accessible.
 Reliable and data once minted cannot be deleted or erased which happens in centralized systems.
 
 ## 🤠 Contributions 
